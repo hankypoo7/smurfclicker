@@ -1,0 +1,130 @@
+/* CSS for the leaderboard */
+.leaderboard {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Add more CSS styles as needed */
+
+html, body {
+ 
+  
+}
+
+button{
+  border:5px solid #5e5e5e;
+  border-radius:6px;
+  transition: transform 0.2s ease;
+  color:black;
+}
+button:hover{
+  transform: translateY(-2px) scale(1.05);
+  border:6px solid #413e3e;
+  border-radius:8px;
+  background: #b8b8b8;
+  color:white;
+  
+}
+button:active{
+   transform:scale(0.95);
+}
+#title { 
+  background-color: rgba(239, 239, 240, 0.3);
+  border: 3px solid gray;
+  border-radius:5px;
+  padding: 10px 10px 10px 10px;
+  
+
+  border-image: url(border.png) 30 stretch;
+  
+}
+#nononoe{
+  background-color: rgba(239, 239, 240, 0.3);
+  box-shadow: -1px 1px 5px 9px rgba(239, 239, 240, 0.3);
+  width:100px;
+  border-radius:6px;
+}
+#holdup{
+  width:100px;
+  background-color: rgba(239, 239, 240, 0.3);
+  box-shadow: -1px 1px 5px 9px rgba(239, 239, 240, 0.3);
+  border-radius:6px;
+  padding-top:5px;
+  padding-bottom:5px;
+  
+  
+}
+#items { 
+  border: 6px solid transparent;
+  padding: 10px;
+  
+  border-image: url(border.png) 30 stretch;
+}#upgradetable { 
+  border: 6px solid transparent;
+  padding: 10px;
+  border-image: url(border.png) 30 stretch;
+}
+#cookslot { 
+  border: 6px solid transparent;
+  padding: 10px;
+  border-image: url(border.png) 30 stretch;
+}
+#cookiestable { 
+  border: 3px solid transparent;
+  padding: 10px;
+  border-image: url(border.png) 30 stretch;
+}
+#itemstable { 
+  border: 6px solid transparent;
+  padding: 10px;
+  border-image: url(border.png) 30 stretch;
+}
+#statstable { 
+  border: 6px solid transparent;
+  padding: 10px;
+  border-image: url(border.png) 30 stretch;
+}
+.update{
+
+  
+
+}
+#tablename { 
+  border: 6px solid transparent;
+  padding: 10px;
+  border-image: url(border.png) 30 stretch;
+}
+#buttontable { 
+  border: 6px solid transparent;
+  padding: 10px;
+  border-image: url(border.png) 30 stretch;
+}
+#body { 
+  border: 20px solid transparent;
+  padding: 10px;
+  border-image: url(border.png) 30 stretch;
+}
+p {
+  color: white;
+  font-size: 140%;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  
+}
+
